@@ -20,7 +20,7 @@ Page.ServerUtils = class ServerUtils extends Page.PageUtils {
 		cmd += proc.command;
 		if (proc.params) cmd += ' ' + proc.params;
 		
-		html += '<div class="dialog_box_content maximize" style="width:600px; max-height:75vh; overflow-x:hidden; overflow-y:auto;">';
+		html += '<div class="dialog_box_content maximize" style="width:95vw; max-width:600px; max-height:75vh; overflow-x:hidden; overflow-y:auto;">';
 		
 		// command
 		html += '<div class="summary_grid single" style="margin-top:10px; margin-bottom:20px;">';
